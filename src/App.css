@@ -22,6 +22,7 @@ body {
 .movie-list {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
   padding: 48px 30px;
 }
 
@@ -30,8 +31,8 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
   display: flex;
-  flex-direction: column;
-  height: 450px;
+  flex-direction: row;
+  height: 600px;
   margin: 5px;
   overflow: hidden;
   width: 300px;
@@ -43,7 +44,10 @@ body {
 }
 
 .movie-card-body {
+  display: flex;
   flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 20px;
 }
 

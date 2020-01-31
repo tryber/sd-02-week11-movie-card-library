@@ -8,13 +8,13 @@ class MovieCard extends React.Component {
     const movie = this.props.movie;
     return (
       <div>
-        <img src={movie.imagePath} />
+        <img alt="imagem do filme" src={movie.imagePath} />
         <h4>{movie.title}</h4>
         <h5>{movie.subtitle}</h5>
         <p>{movie.storyline}</p>
         <Rating rating={movie.rating} />
       </div>
-    )
+    );
   }
 }
 

@@ -7,7 +7,7 @@ class Rating extends React.Component {
       <div className="movie-card-rating">
         <p className="rating">{rating}</p>
       </div>
-    )
+    );
   }
 }
 

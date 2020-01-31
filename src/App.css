@@ -44,9 +44,9 @@ body {
 
 .movie-card-body {
   display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
   justify-content: space-between;
-  flex: 1 1 auto;
 }
 
 .movie-card-title {
@@ -66,8 +66,8 @@ body {
 
 .movie-card-storyline {
   font-size: 14px;
-  text-align: justify;
   padding: 0 20px;
+  text-align: justify;
 }
 
 .rating {

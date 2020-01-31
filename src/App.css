@@ -43,10 +43,10 @@ body {
 }
 
 .movie-card-body {
-  display:flex;
+  display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
   justify-content: space-between;
-  flex: 1 1 auto;
   padding: 20px;
 }
 

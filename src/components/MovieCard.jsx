@@ -2,11 +2,12 @@ import React from 'react';
 
 class MovieCard extends React.Component {
   render() {
-    const movies = this.props.movies;
+    const { title, subtitle, storyline, imagePath, rating } = this.props.movie;
 
     return (
       <div>
-        {movies.map((movie, i) => <MovieCard key={i} movie={movie} />)}
+        <img src={imagePath} />
+        <h4>{title}</h4>
       </div>
     )
   }
